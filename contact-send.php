@@ -15,19 +15,19 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                   
-    $mail->Username = 'info@qualideaapparels.in';
-    $mail->Password = 'BLkstone143@#&';                        //SMTP password
+    $mail->Username = 'info@skmatchworks.com';
+    $mail->Password = 'SKmatch143@#&';                        //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     if(isset($_POST['contact_send']))
     {
     //Recipients
-    $mail->setFrom('info@qualideaapparels.in', 'Contact From Website');
-    // $mail->addAddress('ctaneesh008@gmail.com');    
-    $mail->addCC('qualideaapparels@gmail.com');
+    $mail->setFrom('info@skmatchworks.com', 'Contact From Website');
+    $mail->addAddress('ctaneesh008@gmail.com');    
+    // $mail->addCC('jithindhudhu@gmail.com');
     date_default_timezone_set('Asia/Calcutta');
 
-    $php = "https://qualideaapparels.in/";
+    $php = "https://skmatchworks.com/";
     $date = date("d-M-Y");	
     $time =  date("h:i:sa");
     $yr_name   = $_POST['yr-name'];
@@ -83,8 +83,8 @@ try {
          echo '<h1 class="title">';
          echo 'Message has been sent successfully...';
          echo '</h1>';
-         echo "<meta http-equiv=refresh content=2;URL=https://qualideaapparels.in />"; 
-         header("Refresh:2; url=https://qualideaapparels.in");
+         echo "<meta http-equiv=refresh content=2;URL=https://skmatchworks.com />"; 
+         header("Refresh:2; url=https://skmatchworks.com");
     }
     else{
         echo '<h1 class="title">';
@@ -95,7 +95,7 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-echo "<meta http-equiv=refresh content=2;URL=https://qualideaapparels.in />"; 
+echo "<meta http-equiv=refresh content=2;URL=https://skmatchworks.com />"; 
                                     
 
 ?>
