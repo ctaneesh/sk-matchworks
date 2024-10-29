@@ -1486,7 +1486,7 @@ a.meanmenu-reveal i {
   text-align: center;
 }
 .hero-content-2 h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 25px;
@@ -1495,13 +1495,13 @@ a.meanmenu-reveal i {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-content-2 h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 56px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-content-2 h1 {
-    font-size: 36px;
+    font-size: 26px;
     line-height: 40px;
   }
 }
@@ -1804,20 +1804,20 @@ a.meanmenu-reveal i {
 }
 .about-content h2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-content h2 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 36px;
   }
 }
 @media only screen and (max-width: 767px) {
   .about-content h2 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 36px;
   }
 }
@@ -1989,7 +1989,7 @@ a.meanmenu-reveal i {
 /*-- About Content 2 --*/
 .about-content-2 {
   padding-left: 55px;
-  padding-right: 85px;
+  padding-right: 20px;
   margin-top: -10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2013,9 +2013,9 @@ a.meanmenu-reveal i {
 }
 .about-content-2 h2 {
   color: #424242;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

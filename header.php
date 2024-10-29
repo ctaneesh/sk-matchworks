@@ -1,6 +1,10 @@
 <!-- Body main wrapper start -->
 <div class="wrapper fix">
-
+<?php
+	$currentFiles=$_SERVER['PHP_SELF'];
+	$partss = explode('/', $currentFiles);
+	$pagenames = $partss[count($partss) -1];
+?> 
     <!-- Header Area Start -->
     <div id="header-area" class="header-area section">
 
@@ -40,17 +44,17 @@
                     <div id="main-menu" class="main-menu col-auto d-none d-lg-block">
                         <nav>
                             <ul>
-                                <li><a href="index.php">home</a>
+                                <li class="<?= ($pagenames === 'index.php') ? 'active' : '' ?>"><a href="index.php">home</a>
                                 </li>
-                                <li><a href="about.php">about</a></li>
-                                <li><a href="products.php">Products</a>
+                                <li class="<?= ($pagenames === 'about.php') ? 'active' : '' ?>"><a href="about.php">about</a></li>
+                                <li class="<?= ($pagenames === 'splints.php' || $pagenames === 'veneers.php') ? 'active' : '' ?>"><a href="products.php">Products</a>
                                     <ul>
                                         <li><a href="splints.php">Splints</a></li>
                                         <li><a href="veneers.php">Veneers</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="gallery.php">Gallery</a></li>
-                                <li><a href="contact.php">contact us</a></li>
+                                <li class="<?= ($pagenames === 'gallery.php') ? 'active' : '' ?>"><a href="gallery.php">Gallery</a></li>
+                                <li class="<?= ($pagenames === 'contact.php') ? 'active' : '' ?>"><a href="contact.php">contact us</a></li>
                             </ul>
                         </nav>
                     </div>

@@ -52,7 +52,8 @@
             <!-- Section Title -->
             <div class="row">
                 <!--  Product  -->
-                <div class="col-lg-6 col-md-6 col-12 mb-30">
+                <div class="col-lg-1 col-md-12 col-12 mb-30"></div>
+                <div class="col-lg-5 col-md-6 col-12 mb-30">
                     <div class="blog-item">
                         <!--  Image  -->
                         <a href="splints.php" class="image"><img src="img/blog/1.jpg" alt="Image"></a>
@@ -63,7 +64,7 @@
                     </div>
                 </div>
                 <!--  Product  -->
-                <div class="col-lg-6 col-md-6 col-12 mb-30">
+                <div class="col-lg-5 col-md-6 col-12 mb-30">
                     <div class="blog-item">
                         <!--  Image  -->
                         <a href="veneers.php" class="image"><img src="img/blog/2.jpg" alt="Image"></a>

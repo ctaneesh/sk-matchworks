@@ -78,7 +78,7 @@
                 <div class="col-lg-5 col-12 order-lg-2">
                     <div class="about-image-2">
                         <img src="img/about/about-2.jpg" alt="Image">
-                        <a class="video-popup play-btn" href="https://www.youtube.com/watch?v=mmiGepPOfE4"><i class="zmdi zmdi-play"></i></a>
+                        <a class="video-popup play-btn" href=""><i class="zmdi zmdi-play"></i></a>
                     </div>
                 </div>
                 <!--  About Content  -->
@@ -115,8 +115,8 @@
                 </p>
                 <p class="text-black">
                 The following case study describes the development of the match industry in southern India over the last several decades. In particular it encourages the small scale sector.</p>
-                <a href="#" class="button white">JOIN NOW</a>
-                <a href="#" class="button">view details</a>
+                <a href="#" class="button white">Learn More</a>
+                <a href="#" class="button">Contact us</a>
             </div>
         </div>
     </div>
@@ -134,7 +134,8 @@
             </div>
             <div class="row">
                 <!--  Product  -->
-                <div class="col-lg-6 col-md-6 col-12 mb-30">
+                <div class="col-lg-1 col-md-12 col-12 mb-30"></div>
+                <div class="col-lg-5 col-md-6 col-12 mb-30">
                     <div class="blog-item">
                         <!--  Image  -->
                         <a href="" class="image"><img src="img/blog/1.jpg" alt="Image"></a>
@@ -145,7 +146,7 @@
                     </div>
                 </div>
                 <!--  Product  -->
-                <div class="col-lg-6 col-md-6 col-12 mb-30">
+                <div class="col-lg-5 col-md-6 col-12 mb-30">
                     <div class="blog-item">
                         <!--  Image  -->
                         <a href="" class="image"><img src="img/blog/2.jpg" alt="Image"></a>
@@ -173,7 +174,7 @@
                     </div>
                     <!--  Donation Form  -->
                     <div class="donation-form-2">
-                        <form action="#" class="donation-form-2">
+                        <form method="POST" class="donation-form-2" action="contact-send.php">
                             <div class="row mb-n4">
                                 <div class="col-lg-3 col-md-6 col-12 mb-4">
                                     <input class="form-control" id="yr-name" name="yr-name" placeholder="Name *" type="text" required autocomplete="off">
@@ -194,7 +195,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-12 mb-4"></div>
-                                <div class="col-lg-2 col-md-3 col-12 mb-4"><input type="submit" value="Submit"></div>
+                                <div class="col-lg-2 col-md-3 col-12 mb-4"><input type="submit" value="Submit" name="contact_send" id="contact_send"></div>
                             </div>
                         </form>
                     </div>
@@ -258,13 +259,13 @@
 				<!-- Single Testimonial -->
 				<div class="single-testimonial">
 					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
+						<p>The company has a reputation for consistent delivery schedules. Their production is well-organized, ensuring timely dispatch even for bulk orders. This reliability makes them a preferred partner in the matchstick manufacturing ecosystem.</p>
 					</div>
 					<div class="author fix">
-						<img src="img/testimonial/1.jpg" alt="">
+						<!-- <img src="img/testimonial/2.jpg" alt=""> -->
 						<div class="details fix">
-							<h4>Jack Cox</h4>
-							<span>Bangladesh</span>
+							<h4>Jose Mathew</h4>
+							<span>Palakkad</span>
 						</div>
 					</div>
 				</div>
@@ -273,13 +274,13 @@
 				<!-- Single Testimonial -->
 				<div class="single-testimonial">
 					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
+						<p>Sree Krishna Match Works demonstrates responsible sourcing of wood, using materials that align with environmental regulations. This shows their commitment to sustainability, an important factor in today’s industry standards.</p>
 					</div>
 					<div class="author fix">
-						<img src="img/testimonial/2.jpg" alt="">
+						<!-- <img src="img/testimonial/3.jpg" alt=""> -->
 						<div class="details fix">
-							<h4>Jose Miller</h4>
-							<span>Bangladesh</span>
+							<h4>Jino George </h4>
+							<span>Thrissur</span>
 						</div>
 					</div>
 				</div>
@@ -288,77 +289,33 @@
 				<!-- Single Testimonial -->
 				<div class="single-testimonial">
 					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
+						<p>Sree Krishna Match Works offers competitive pricing without compromising product quality. This balance of affordability and excellence provides great value for match manufacturers seeking dependable raw material suppliers.</p>
 					</div>
 					<div class="author fix">
-						<img src="img/testimonial/3.jpg" alt="">
+						<!-- <img src="img/testimonial/1.jpg" alt=""> -->
 						<div class="details fix">
-							<h4>John Pena</h4>
-							<span>Bangladesh</span>
+							<h4>Rajeesh K R</h4>
+							<span>Thrissur</span>
 						</div>
 					</div>
 				</div>
 			</div>
+            
 			<div class="slick-slide">
 				<!-- Single Testimonial -->
 				<div class="single-testimonial">
 					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
+						<p>Sree Krishna Match Works delivers high-quality match splints and veneers essential for match manufacturing. The splints are well-dried, uniform in size, and free from defects like cracks or rough edges, ensuring smooth production for match manufacturers.</p>
 					</div>
 					<div class="author fix">
-						<img src="img/testimonial/1.jpg" alt="">
 						<div class="details fix">
-							<h4>Jack Cox</h4>
-							<span>Bangladesh</span>
+							<h4>Krishna kumar</h4>
+							<span>Kollam</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="slick-slide">
-				<!-- Single Testimonial -->
-				<div class="single-testimonial">
-					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
-					</div>
-					<div class="author fix">
-						<img src="img/testimonial/2.jpg" alt="">
-						<div class="details fix">
-							<h4>Jose Miller</h4>
-							<span>Bangladesh</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="slick-slide">
-				<!-- Single Testimonial -->
-				<div class="single-testimonial">
-					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
-					</div>
-					<div class="author fix">
-						<img src="img/testimonial/3.jpg" alt="">
-						<div class="details fix">
-							<h4>John Pena</h4>
-							<span>Bangladesh</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="slick-slide">
-				<!-- Single Testimonial -->
-				<div class="single-testimonial">
-					<div class="content">
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour bojte tomi.</p>
-					</div>
-					<div class="author fix">
-						<img src="img/testimonial/3.jpg" alt="">
-						<div class="details fix">
-							<h4>9787998</h4>
-							<span>Bangladesh</span>
-						</div>
-					</div>
-				</div>
-			</div>
+            
 		</div>
     </div>
 </div>

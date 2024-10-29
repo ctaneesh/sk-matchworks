@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>VENEERS | SREE KRISHNA MATCH WORKS</title>
-    <meta name="description" content="SREE KRISHNA MATCH WORKS, which is an ancilliary Industry producing match splints and veneers. The industry is situated in Palappuram, Ottapalam, Palakkad district, Kerala. It was started by Mr. Ramakrishnan in the year 1985 with a capital of Rs 150000.">
+    <meta name="description" content="Veneers are the non-attached side sheets of a match box. Soft wood Elava is used for veneers. The peeled thin sheets of Elave are put in the veneer making machine. The folding required for the side sheets are automatically done by the machine. A sort of color is being shaded through the side of the veneers. This veneers spread up on the floor to get it dried. In this section no medical application is done. The veneers are then packed in gunnies for the sale of match factories.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -53,10 +53,10 @@
                 <!--  Single Project Details  -->
                 <div class="single-project-details">
                     <!--  Image  -->
-                    <img class="main-image" src="img/project/single.jpg" alt="">
+                    <img class="main-image" src="img/products/veneer.jpg" alt="veneer">
                     <!--  Title  -->
-                    <h3 class="title">VENEERS</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <h3 class="title">PRODUCTION OF VENEERS</h3>
+                    <p>Veneers are the non-attached side sheets of a match box. Soft wood Elava is used for veneers. The peeled thin sheets of Elave are put in the veneer making machine. The folding required for the side sheets are automatically done by the machine. A sort of color is being shaded through the side of the veneers. This veneers spread up on the floor to get it dried. In this section no medical application is done. The veneers are then packed in gunnies for the sale of match factories.</p>
                    
                 </div>
                 <!-- Comment Wrapper -->
@@ -85,7 +85,7 @@
                             <div class="input-box">
                                 <textarea class="form-control" id="comments" name="comments" placeholder="Message"></textarea>
                             </div>
-                            <div class="input-box"><input type="submit" value="Enquire Now"></div>
+                            <div class="input-box"><input type="submit" value="Submit" name="contact_send" id="contact_send"></div>
                         </form>
                     </div>
                 </div>

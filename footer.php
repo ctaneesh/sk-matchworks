@@ -8,11 +8,10 @@
                         <!--  About Widget  -->
                         <div class="about-widget">
                             <img src="img/logo-2.png" alt="Image">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from</p>
+                            <p>SREE KRISHNA MATCH WORKS, which is an ancilliary Industry producing match splints and veneers. The industry is situated in Palappuram, Ottapalam, Palakkad district, Kerala. It was started in the year 1985 with a capital of Rs. 150000.</p>
                             <!-- Footer Social -->
                             <div class="footer-social fix">
                                 <a target="_blank" rel="noopener" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                                <a target="_blank" rel="noopener" href="https://www.pinterest.com/"><i class="fa fa-whatsapp"></i></a>
                                 <a target="_blank" rel="noopener" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                                 <a target="_blank" rel="noopener" href="https://www.instagram.com/"><i class="fa fa-youtube-play"></i></a>
                             </div>
@@ -39,7 +38,7 @@
                         <p>Sreekrishna Match Works<br>
                                     Palappuram (PO)<br>
                                     Ottapalam<br>
-                                    679103
+                                    Palakkad - 679103
                         </p>
                     </div>
                     <div class="footer-widget about-widget col-lg-3 col-md-6 col-12 mb-50">

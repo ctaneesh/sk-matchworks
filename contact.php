@@ -79,7 +79,7 @@
                         <!-- Contact Form -->
                         <div class="contact-form bg-gray col-xl-12  col-12 mb-50">
                             <h3 class="block-title">Contact Form</h3>
-                            <form action="POST" class="donation-form-2">
+                            <form action="POST" class="donation-form-2" action="contact-send.php">
                                 <div class="row">
                                     <div class="col-xl-6 col-md-6 col-sm-12 col-12 mb-4">
                                         <input class="form-control" id="yr-name" name="yr-name" placeholder="Name *" type="text" required autocomplete="off">
@@ -98,7 +98,8 @@
                                         <textarea class="form-control" rows="5" id="comments" name="comments" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-lg-10 col-md-9 col-12 mb-4"></div>
-                                    <div class="col-lg-2 col-md-3 col-12 mb-4"><input type="submit" value="Submit"></div>
+                                    <div class="col-lg-2 col-md-3 col-12 mb-4">
+                                        <input type="submit" value="Submit" name="contact_send" id="contact_send"></div>
                                 </div>
                             </form>
                             <!-- <form id="contact-form" action="https://whizthemes.com/mail-php/other/mail.php" method="post">
